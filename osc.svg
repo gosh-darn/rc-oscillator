@@ -1,0 +1,76 @@
+<svg viewBox="0 0 396 244" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3">
+  <path d="m86 50h36" paint-order="fill stroke markers"/>
+  <path d="m122 38v24" paint-order="fill stroke markers"/>
+  <path d="m166 50h-36" paint-order="fill stroke markers"/>
+  <path d="m130 38v24" paint-order="fill stroke markers"/>
+ </g>
+ <path d="m126.06 32.107q-1.2357 0-2.1625-0.54468-0.92676-0.55281-1.4389-1.5446-0.51217-0.9918-0.51217-2.3169v-3.2437q0-1.3332 0.51217-2.325 0.51216-0.9918 1.4389-1.5365 0.92677-0.55281 2.1625-0.55281 1.0243 0 1.8698 0.439 0.8536 0.439 1.4227 1.2276 0.57719 0.78857 0.78043 1.8454h-1.6991q-0.15446-0.56907-0.52029-0.9918-0.3577-0.43086-0.84548-0.66662-0.48777-0.23576-1.0081-0.23576-1.0894 0-1.756 0.77231-0.65849 0.76418-0.65849 2.0243v3.2437q0 1.2601 0.65849 2.0243 0.66662 0.76418 1.756 0.76418 0.77231 0 1.4552-0.48777 0.68288-0.48777 0.91864-1.4064h1.6991q-0.20324 1.0568-0.78043 1.8454-0.5772 0.78857-1.4227 1.2276-0.84548 0.439-1.8698 0.439z" dominant-baseline="alphabetic" aria-label="C"/>
+ <g stroke="#000">
+  <path d="m166 50h48" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" paint-order="fill stroke markers"/>
+  <path d="m246 50h48" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" paint-order="fill stroke markers"/>
+  <g transform="translate(214,50)">
+   <rect y="-6" width="32" height="12" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+ </g>
+ <g fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3">
+  <path d="m166 114h38" paint-order="fill stroke markers"/>
+  <path d="m166 146h38" paint-order="fill stroke markers"/>
+  <path d="m256 130h38" paint-order="fill stroke markers"/>
+  <path d="m204 98v64l52-32z" paint-order="fill stroke markers"/>
+ </g>
+ <g transform="translate(182 -124.72)">
+  <text x="32" y="238" dominant-baseline="central" fill="#000000" font-family="sans-serif" font-size="14px" text-anchor="middle" text-decoration="normal"><tspan font-family="Bahnschrift">-</tspan></text>
+ </g>
+ <g transform="translate(181.6 -126.16)">
+  <text x="32" y="272" dominant-baseline="central" fill="#000000" font-family="sans-serif" font-size="14px" text-anchor="middle" text-decoration="normal"><tspan font-family="Bahnschrift">+</tspan></text>
+ </g>
+ <path d="m166 114v-64" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" paint-order="fill stroke markers"/>
+ <text x="172" y="88" dominant-baseline="alphabetic" fill="#ffffff" font-family="sans-serif" font-size="12px" text-decoration="normal"/>
+ <g fill="none" stroke="#000">
+  <g stroke-linecap="round" stroke-miterlimit="10" stroke-width="3">
+   <path d="m86 50h-16" paint-order="fill stroke markers"/>
+   <path d="m70 60v-20" paint-order="fill stroke markers"/>
+   <path d="m65 56v-12" paint-order="fill stroke markers"/>
+   <path d="m60 52v-4" paint-order="fill stroke markers"/>
+   <path d="m166 194h48" paint-order="fill stroke markers"/>
+   <path d="m246 194h48" paint-order="fill stroke markers"/>
+  </g>
+  <g transform="translate(214,194)">
+   <rect y="-6" width="32" height="12" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+  <path d="m166 194h-24" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" paint-order="fill stroke markers"/>
+  <path d="m110 194h-24" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" paint-order="fill stroke markers"/>
+  <g transform="rotate(180,71,97)">
+   <rect y="-6" width="32" height="12" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+  <g stroke-linecap="round" stroke-miterlimit="10" stroke-width="3">
+   <path d="m86 194h-16" paint-order="fill stroke markers"/>
+   <path d="m70 204v-20" paint-order="fill stroke markers"/>
+   <path d="m65 200v-12" paint-order="fill stroke markers"/>
+   <path d="m60 196v-4" paint-order="fill stroke markers"/>
+   <path d="m166 146v48" paint-order="fill stroke markers"/>
+  </g>
+ </g>
+ <text x="172" y="176" dominant-baseline="alphabetic" fill="#ffffff" font-family="sans-serif" font-size="12px" text-decoration="normal"/>
+ <path d="m294 130v64" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" paint-order="fill stroke markers"/>
+ <text x="300" y="168" dominant-baseline="alphabetic" fill="#ffffff" font-family="sans-serif" font-size="12px" text-decoration="normal"/>
+ <path d="m294 130v-80" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" paint-order="fill stroke markers"/>
+ <text x="300" y="96" dominant-baseline="alphabetic" fill="#ffffff" font-family="sans-serif" font-size="12px" text-decoration="normal"/>
+ <g>
+  <g transform="translate(182,-126)">
+   <path d="m137.91 260.22q-1.3945 0-2.1602-0.80664-0.76562-0.81347-0.76562-2.2832v-1.1553q0-1.4561 0.76562-2.2559 0.76563-0.79981 2.1602-0.79981t2.1602 0.79981q0.76562 0.7998 0.76562 2.2559v1.1758q0 1.4629-0.76562 2.2695-0.76563 0.7998-2.1602 0.7998zm0-1.3262q0.73144 0 1.1279-0.45801 0.40332-0.458 0.40332-1.2852v-1.1758q0-0.82715-0.40332-1.2783-0.39649-0.45118-1.1279-0.45118-0.72461 0-1.1279 0.45118-0.40332 0.45117-0.40332 1.2783v1.1758q0 0.82715 0.40332 1.2852 0.40332 0.45801 1.1279 0.45801zm9.0166 1.2236v-7.0957h1.3877v7.0957zm-2.8848-7.0957v4.3135q0 0.74511 0.37597 1.1553 0.38281 0.40332 1.0732 0.40332t1.0596-0.3623q0.37598-0.36914 0.37598-1.0322l0.0957 1.4834q-0.1914 0.47851-0.66992 0.86133-0.47851 0.37597-1.251 0.37597-1.1758 0-1.8184-0.75195-0.63575-0.75879-0.63575-2.1328v-4.3135zm8.2373 7.1299q-0.875 0-1.2715-0.48535-0.38965-0.48535-0.38965-1.3945v-7.3144h1.3945v7.3281q0 0.25293 0.10254 0.39649 0.10254 0.14355 0.30078 0.14355h0.66992v1.3262zm-2.3926-5.8721v-1.2578h3.1992v1.2578z" dominant-baseline="central" aria-label="out"/>
+  </g>
+  <path d="m294 130h15" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" paint-order="fill stroke markers"/>
+  <g>
+   <path d="m169 50a3 3 0 1 1 0-2e-5z" paint-order="stroke fill markers"/>
+   <path d="m296.92 130a3 3 0 1 1 0-1e-5z" paint-order="stroke fill markers"/>
+   <path d="m169 194a3 3 0 1 1 0-2e-5z" paint-order="stroke fill markers"/>
+  </g>
+ </g>
+ <g>
+  <path d="m226.76 33.938v-1.5771h4.0323q0.72353 0 1.1625-0.50403 0.439-0.50403 0.439-1.3332t-0.439-1.3332q-0.43899-0.50403-1.1625-0.50403h-4.0323v-1.5771h3.9672q1.0324 0 1.8048 0.43087 0.77231 0.42274 1.195 1.1869 0.43087 0.76418 0.43087 1.7966 0 1.0243-0.43087 1.7966-0.43086 0.76418-1.2032 1.195-0.76418 0.42274-1.7966 0.42274zm-0.72352 4.9997v-11.828h1.6584v11.828zm6.65 0-2.7071-5.3655 1.6503-0.37396 3.0242 5.7395z" dominant-baseline="alphabetic" aria-label="R"/>
+  <path d="m119.66 177.86v-1.5771h4.0323q0.72352 0 1.1625-0.50403 0.43899-0.50403 0.43899-1.3332 0-0.82921-0.43899-1.3332-0.439-0.50403-1.1625-0.50403h-4.0323v-1.5771h3.9672q1.0324 0 1.8048 0.43086 0.7723 0.42274 1.195 1.1869 0.43086 0.76417 0.43086 1.7966 0 1.0243-0.43086 1.7966-0.43087 0.76418-1.2032 1.195-0.76418 0.42273-1.7966 0.42273zm-0.72353 4.9997v-11.828h1.6584v11.828zm6.65 0-2.7071-5.3655 1.6503-0.37396 3.0242 5.7395zm6.8126-11.82v11.82h-1.6584v-10.016l-1.6828 1.0324v-1.7153l1.6828-1.1219z" dominant-baseline="alphabetic" aria-label="R1"/>
+  <path d="m222.03 177.86v-1.5771h4.0322q0.72353 0 1.1625-0.50403 0.439-0.50403 0.439-1.3332 0-0.82921-0.439-1.3332-0.43899-0.50403-1.1625-0.50403h-4.0322v-1.5771h3.9672q1.0324 0 1.8048 0.43086 0.77231 0.42274 1.195 1.1869 0.43087 0.76417 0.43087 1.7966 0 1.0243-0.43087 1.7966-0.43086 0.76418-1.2032 1.195-0.76418 0.42273-1.7966 0.42273zm-0.72353 4.9997v-11.828h1.6584v11.828zm6.65 0-2.7071-5.3655 1.6503-0.37396 3.0242 5.7395zm3.7802 0v-1.4389l4.1217-5.4956q0.3577-0.47151 0.55281-0.97554 0.20324-0.50404 0.20324-0.95116v-0.0163q0-0.70727-0.41461-1.0975-0.4146-0.39022-1.1788-0.39022-0.7154 0-1.1706 0.43087-0.44713 0.42274-0.54468 1.2032v8e-3h-1.7153v-8e-3q0.21949-1.5284 1.1137-2.3657 0.89425-0.84548 2.3007-0.84548 1.5934 0 2.4632 0.80483 0.86986 0.80482 0.86986 2.2763v8e-3q0 0.62597-0.26014 1.317-0.26015 0.68288-0.72353 1.3088l-3.4225 4.6501h4.4712v1.5771z" dominant-baseline="alphabetic" aria-label="R2"/>
+ </g>
+</svg>
