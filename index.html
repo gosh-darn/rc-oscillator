@@ -9,41 +9,88 @@
     <h1>RC op-amp oscillator calculator</h1>
     <img src="osc.svg"/>
     <label for="fname">R</label>
-    <input type="text" id="R" name="R">
-    <select>
-        <option value="mohm">mΩ</option>
-        <option value="ohm" selected>Ω</option>
-        <option value="kohm">kΩ</option>
-        <option value="megohm">MΩ</option>
-        <option value="gigohm">GΩ</option>
+    <input type="number" id="R" name="R">
+    <select id="runit">
+        <option value="0.001">mΩ</option>
+        <option value="1">Ω</option>
+        <option value="1000" selected>kΩ</option>
+        <option value="1000000">MΩ</option>
+        <option value="1000000000">GΩ</option>
     </select><br>
     <label for="fname">C</label>
-    <input type="text" id="C" name="C">
-    <select>
-        <option value="pf">pF</option>
-        <option value="nf">nF</option>
-        <option value="uf" selected>µF</option>
-        <option value="mf">mF</option>
-        <option value="f">F</option>
+    <input type="number" id="C" name="C">
+    <select id="cunit">
+        <option value="0.000000000001">pF</option>
+        <option value="0.000000001">nF</option>
+        <option value="0.000001" selected>µF</option>
+        <option value="0.001">mF</option>
+        <option value="1">F</option>
     </select><br>
     <label for="fname">R1</label>
-    <input type="text" id="R1" name="R1">
-    <select>
-        <option value="mohm">mΩ</option>
-        <option value="ohm" selected>Ω</option>
-        <option value="kohm">kΩ</option>
-        <option value="megohm">MΩ</option>
-        <option value="gigohm">GΩ</option>
+    <input type="number" id="R1" name="R1">
+    <select id="r1unit">
+        <option value="0.001">mΩ</option>
+        <option value="1">Ω</option>
+        <option value="1000" selected>kΩ</option>
+        <option value="1000000">MΩ</option>
+        <option value="1000000000">GΩ</option>
     </select><br>
     <label for="fname">R2</label>
-    <input type="text" id="R2" name="R2">
-    <select>
-        <option value="mohm">mΩ</option>
-        <option value="ohm" selected>Ω</option>
-        <option value="kohm">kΩ</option>
-        <option value="megohm">MΩ</option>
-        <option value="gigohm">GΩ</option>
+    <input type="number" id="R2" name="R2">
+    <select id="r2unit">
+        <option value="0.001">mΩ</option>
+        <option value="1">Ω</option>
+        <option value="1000" selected>kΩ</option>
+        <option value="1000000">MΩ</option>
+        <option value="1000000000">GΩ</option>
     </select><br>
-    <h2>Out frequency =</h2>
+    <h2 id="frequency">Out frequency =</h2>
   </body>
+  <script>
+    var r = document.getElementById('R');
+    var rUnit = document.getElementById('runit');
+    var c = document.getElementById('C');
+    var cUnit = document.getElementById('cunit');
+    var rOne = document.getElementById('R1');
+    var rOneUnit = document.getElementById('r1unit');
+    var rTwo = document.getElementById('R2');
+    var rTwoUnit = document.getElementById('r2unit');
+
+    var rInput = parseFloat(r.value);
+    var rUnitInput = parseFloat(rUnit.value);
+    var cInput = parseFloat(c.value);
+    var cUnitInput = parseFloat(cUnit.value);
+    var rOneInput = parseFloat(rOne.value);
+    var rOneUnitInput = parseFloat(rOneUnit.value);
+    var rTwoInput = parseFloat(rTwo.value);
+    var rTwoUnitInput = parseFloat(rTwoUnit.value);
+
+    var calc = (-(1/(2*rInput*rUnitInput*cInput*cUnitInput*Math.log(1/(1+(2*rOneInput*rOneUnitInput/(rTwoInput*rTwoUnitInput)))))));
+    if (!Number.isNaN(calc)) {
+    document.getElementById("frequency").textContent = "Out frequency = " + calc + " Hz";
+    }
+
+
+    document.addEventListener("input", handleChange);
+    document.addEventListener("change", handleChange);
+
+    function handleChange(e) {
+      if (e.target.matches("input, select")) {
+        var rInput = parseFloat(r.value);
+        var rUnitInput = parseFloat(rUnit.value);
+        var cInput = parseFloat(c.value);
+        var cUnitInput = parseFloat(cUnit.value);
+        var rOneInput = parseFloat(rOne.value);
+        var rOneUnitInput = parseFloat(rOneUnit.value);
+        var rTwoInput = parseFloat(rTwo.value);
+        var rTwoUnitInput = parseFloat(rTwoUnit.value);
+
+
+        var calc = (-(1/(2*rInput*rUnitInput*cInput*cUnitInput*Math.log(1/(1+(2*rOneInput*rOneUnitInput/(rTwoInput*rTwoUnitInput)))))));
+        if (!Number.isNaN(calc)) {
+        document.getElementById("frequency").textContent = "Out frequency = " + calc + " Hz";
+        }
+      }
+    }
+  </script>
 </html>
