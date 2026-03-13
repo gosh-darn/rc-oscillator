@@ -65,7 +65,7 @@
     var rTwoInput = parseFloat(rTwo.value);
     var rTwoUnitInput = parseFloat(rTwoUnit.value);
 
-    var calc = (-(1/(2*rInput*rUnitInput*cInput*cUnitInput*Math.log(1/(1+(2*rOneInput*rOneUnitInput/(rTwoInput*rTwoUnitInput)))))));
+    var calc = (1/(2*rInput*rUnitInput*cInput*cUnitInput*Math.log(1+(2*rOneInput*rOneUnitInput/(rTwoInput*rTwoUnitInput)))));
     if (!Number.isNaN(calc)) {
     document.getElementById("frequency").textContent = "Out frequency = " + calc + " Hz";
     }
@@ -86,7 +86,7 @@
         var rTwoUnitInput = parseFloat(rTwoUnit.value);
 
 
-        var calc = (-(1/(2*rInput*rUnitInput*cInput*cUnitInput*Math.log(1/(1+(2*rOneInput*rOneUnitInput/(rTwoInput*rTwoUnitInput)))))));
+        var calc = (1/(2*rInput*rUnitInput*cInput*cUnitInput*Math.log(1+(2*rOneInput*rOneUnitInput/(rTwoInput*rTwoUnitInput)))));
         if (!Number.isNaN(calc)) {
         document.getElementById("frequency").textContent = "Out frequency = " + calc + " Hz";
         }
